@@ -421,9 +421,8 @@
           },
           "to": [
             {
-              "mouse_key": {
-                "y": 1600
-              }
+              "key_code": "down_arrow",
+              "modifiers": ["left_option"]
             }
           ]
         },
@@ -633,9 +632,8 @@
           },
           "to": [
             {
-              "mouse_key": {
-                "y": -1600
-              }
+              "key_code": "up_arrow",
+              "modifiers": ["left_option"]
             }
           ]
         },
