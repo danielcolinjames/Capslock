@@ -210,14 +210,13 @@
           },
           "to": [
             {
-              "mouse_key": {
-                "x": -1600
-              }
+              "key_code": "left_arrow",
+              "modifiers": ["left_option"]
             }
           ]
         },
         {
-          "description": "shift + option + j = mouse left fast",
+          "description": "shift + j = mouse left fast",
           "type": "basic",
           "from": {
             "key_code": "j",
@@ -822,7 +821,7 @@
           ]
         },
         {
-          "description": "option + l = mouse move right",
+          "description": "option + l = mouse word right",
           "type": "basic",
           "from": {
             "key_code": "l",
@@ -838,9 +837,8 @@
           },
           "to": [
             {
-              "mouse_key": {
-                "x": 1600
-              }
+              "key_code": "right_arrow",
+              "modifiers": ["left_option"]
             }
           ]
         },
